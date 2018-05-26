@@ -1,0 +1,392 @@
+input{	
+    width: 50%;	
+    margin: 5px;
+}
+
+input[name="picture"]{
+background: green;
+
+}
+
+input[name="add_picture"]{
+    background: yellow;
+
+}
+
+
+
+input[name="del_sub"]{
+    background: red;
+
+}
+
+
+input[name="check"]{
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.ds_admin {
+	margin: 0 auto;
+	min-height: 500px;
+	max-width: 1020px;
+}
+.ds_panel{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	align-items: stretch;
+	-webkit-align-items: stretch;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.ds_auth{
+	max-width: 500px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.ds_auth{
+	margin: 0 auto;
+}
+.ds_input{
+	margin-top: 20px;
+}
+.ds_valid{
+	color:red;
+	text-align: center;
+}
+.ds_panel__container{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+.admin_images{
+	width: 100%;
+}
+.admin_config{
+	width: 50%;
+}
+.admin_image-container{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: flex-start;  
+    margin-top:100px;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    border-bottom: 1px solid #8b8b8b;
+    padding-bottom: 100px;
+}
+
+.admin_image__pic{
+	width: 50%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 20px;
+}
+.admin_image__config{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+}
+
+.admin_config form{
+    display:flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+.admin_config span{
+    font-size:16px;
+}
+
+.admin_main{
+	display: flex;
+	flex-direction: row;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	width: 100%;
+	height: 300px;
+}
+
+.conf_top{
+	display: flex;
+	flex-direction: row;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	height: 50%;
+	width: 100%
+}
+
+.admin_active{
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+.admin_delete{
+	width: 50%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+
+
+
+
+input[name="desc_sub"]{
+	background: unset;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 147px;
+    background-image: url(../img/service/but_sbm.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+input[name="desc_sub"]:hover{
+	background-image: url(../img/service/but_sbm_hov.png);
+}
+input[name="del_sub"]{
+	background: unset;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 147px;
+    background-image: url(../img/service/but_del.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+input[name="del_sub"]:hover{
+    background-image: url(../img/service/but_del_hov.png);
+}
+input[name="check"]{
+	background: unset;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 147px;
+    background-image: url(../img/service/but_show.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+input[name="check"]:hover{
+    background-image: url(../img/service/but_show_hov.png);
+}
+input[name="check"].active{
+	background: unset;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 147px;
+    background-image: url(../img/service/but_hide.png);
+    background-repeat: no-repeat;
+    border: none;
+}
+input[name="check"].active:hover{
+    background-image: url(../img/service/but_hide_hov.png);
+}
+
+.admin_date input::-webkit-input-placeholder, .admin_sort input::-webkit-input-placeholder, .admin_desc input::-webkit-input-placeholder{
+	text-align: center;
+}
+
+, .admin_sort input{
+	text-align: center;
+}
+
+.conf_top{
+	width: 100%;
+	height: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    -webkit-flex-direction: row;
+}
+.admin_sort{
+	width: 280px;
+}
+.admin_sort input{
+	width: 60px;
+	height: 40px
+}
+.admin_date{
+	width: 192px;
+}
+.admin_date input{
+	width: 125px;
+	height: 40px;
+}
+.conf_middle{
+	width: 100%;
+	height: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: row;
+}
+.admin_desc{
+	width: 100%;
+	height: 62px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
+	align-items: center;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: stretch;
+	-webkit-align-items: center;
+}
+.admin_desc input{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 100%;
+	padding-left: 10px;
+}
+.conf_bottom{
+	width: 100%;
+	height: 40px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    -webkit-flex-direction: row;
+}
+.ds_input{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+}
+.image_config_container{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+}
+input{
+	border-radius: 10px;
+}
+.admin_image__pic img{
+	width: 100%;
+}
+
+@media (max-width: 960px){
+	.admin_main{
+		flex-direction: column;
+		height: 100%;
+	}
+	.admin_image__config{
+		height: 50%;
+		width: 100%;
+	}
+	.admin_image__pic{
+		height: 50%;
+		width: 100%;
+	}
+	.admin_image-container{
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+	.conf_bottom{
+		justify-content: space-around;
+		-webkit-justify-content: space-around;
+	}
+	.conf_bottom input[name="check"].active{
+		width: 100px;
+		background-position: center;
+	}
+	.conf_bottom input{
+		width: 100px;
+		background-position: center;
+	}
+	.admin_config{
+		width: 100%;
+	}
+	.admin_sort{
+		display: none;
+	}
+	.conf_middle, .conf_top{
+		height: 150px;
+	}
+ 	.admin_desc input, .conf_top input{
+		height: 60px;
+	}
+	.admin_date, .admin_desc{
+		display: flex;
+		flex-direction: column;
+		display: -webkit-flex;
+		-webkit-flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		-webkit-align-items: center;
+		width: 100%;
+	}
+	.conf_bottom{
+		margin-top: 10px;
+	}
+	.admin_date input, .admin_desc input{
+		width: 90%;
+	}
+	.admin_desc{
+		height: 100%;
+	}
+	*{
+		font-size: 18px;
+	}
+	
+}
